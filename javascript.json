@@ -1,0 +1,26 @@
+{
+    "Print to console": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');$2"
+        ],
+        "description": "Log output to console"
+    },
+    "Put debugger": {
+        "prefix": "d",
+        "body": [
+            "debugger;$2"
+        ],
+        "description": "Puts debugger"
+    },
+    "Multiline comment": {
+        "prefix": "com",
+        "body": ["/**",
+            "* -------------------------------------------------- *",
+            "* $1 *",
+            "* -------------------------------------------------- *",
+            "*/$2"
+        ],
+        "description": "Multiline comment"
+    }
+}
